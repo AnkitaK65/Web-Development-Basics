@@ -131,7 +131,25 @@ p::before {
     content: "Question #";
 }
 
+.question {
+    border: none;
+    padding-bottom: 0;
+}
 
+.answers-list {
+    list-style: none;
+    padding: 0;
+}
+
+button {
+    display: block;
+    width: 40%;
+    margin: 40px auto;
+    padding: 15px;
+    font-size: 23px;
+    background: #d0d0d5;
+    border: 3px solid #3b3b4f;
+}
 
 .sr-only {
     position: absolute;
