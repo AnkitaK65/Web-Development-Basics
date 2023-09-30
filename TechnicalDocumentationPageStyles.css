@@ -1,4 +1,29 @@
 header {
     font-weight: bold;
-    font-size:xx-large;
+    font-size: xx-large;
+    margin: 10px;
+}
+
+/* header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: thin;
+} */
+html,
+body {
+    min-width: 290px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    margin: auto 20px;
+}
+
+#navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
 }
