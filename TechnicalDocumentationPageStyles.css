@@ -54,3 +54,11 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
+
+section p {
+    margin: 15px;
+}
+
+section li {
+    margin: 15px 0px 0px 20px;
+}
