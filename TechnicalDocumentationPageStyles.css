@@ -1,16 +1,10 @@
 header {
-    font-weight: bold;
+    font-weight: thin;
     font-size: xx-large;
     margin: 10px;
+    text-align: center;
 }
 
-/* header {
-  color: black;
-  margin: 10px;
-  text-align: center;
-  font-size: 1.8em;
-  font-weight: thin;
-} */
 html,
 body {
     min-width: 290px;
@@ -28,22 +22,35 @@ body {
     border-right: solid;
 }
 
+#main-doc {
+    /* position: absolute; */
+    margin-left: 310px;
+    /* padding: 20px; */
+}
+
 #main-doc header {
     text-align: left;
     margin: 0px;
 }
 
 #navbar ul {
-    height: 88%;
+    /* height: 88%; */
     padding: 0;
-    overflow-y: auto;
-    overflow-x: hidden;
+    /* overflow-y: auto; */
+    /* overflow-x: hidden; */
 }
 
 #navbar li {
-    color: #4d4e53;
     border-top: 1px solid;
-    list-style: none;
-    position: relative;
-    width: 100%;
+    /* list-style: none; */
+    /* position: relative; */
+    /* width: 100%; */
+}
+
+#navbar a {
+    display: block;
+    padding: 10px 30px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
