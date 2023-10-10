@@ -43,7 +43,8 @@ body {
 }
 
 .sky {
-    background: radial-gradient(#ffcf33,
+    background: radial-gradient(closest-corner circle at 15% 15%,
+            #ffcf33,
             #ffcf33 20%,
             #ffff66 21%,
             #bbeeff 100%);
@@ -273,4 +274,14 @@ body {
             var(--building-color3) 10%,
             var(--window-color3) 10%,
             var(--window-color3) 30%);
+}
+
+@media (max-width: 1000px) {
+    .sky {
+        background: radial-gradient(closest-corner circle at 15% 15%,
+                #ccc,
+                #ccc 20%,
+                #445 21%,
+                #223 100%);
+    }
 }
