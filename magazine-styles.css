@@ -124,7 +124,6 @@ hr {
 .quote::after {
     content: ' "';
 }
-
 .text-with-images {
     display: grid;
     grid-template-columns: 1fr 2fr;
