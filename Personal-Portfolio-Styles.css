@@ -1,0 +1,12 @@
+@media (min:330px) {
+
+}
+
+.welcome-section {
+    height: 100vh;
+}
+
+#navbar {
+    position: absolute;
+    top:0;
+}
