@@ -1,4 +1,4 @@
-@media (min:330px) {
+/* @media (min:330px) {
 
 }
 
@@ -9,4 +9,144 @@
 #navbar {
     position: absolute;
     top:0;
+} */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+#navbar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+#navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+#navbar a:hover {
+    border-bottom: 2px solid white;
+}
+
+#welcome-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+}
+
+#welcome-section h1 {
+    font-size: 2.5em;
+}
+
+#welcome-section p {
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+#skills,
+#projects,
+#contact {
+    padding: 50px 20px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #3498db;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.project-tile {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-tile:hover {
+    transform: scale(1.02);
+}
+
+#profile-link {
+    display: block;
+    margin: 20px;
+    text-align: center;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+#profile-link:hover {
+    color: #1e6bb8;
+}
+
+
+@media screen and (max-width: 600px) {
+    #navbar ul {
+        flex-direction: column;
+    }
+
+    #navbar li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #navbar a {
+        display: block;
+        margin: 10px 0;
+        border-bottom: none;
+    }
+
+    #welcome-section h1 {
+        font-size: 2em;
+    }
+
+    #skills,
+    #projects,
+    #contact {
+        padding: 20px;
+    }
 }
